@@ -1,11 +1,18 @@
 {
   "cSpell.words": [
+    "figsize",
     "forestapp",
     "Hpfxl",
     "konlpy",
+    "lemmatize",
+    "lemmatizer",
+    "matplotlib",
+    "nltk",
+    "punkt",
     "rescode",
     "seekrtech",
     "stopwords",
-    "venv"
+    "venv",
+    "wordnet"
   ]
 }
