@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
+    "cafename",
+    "cafeurl",
     "figsize",
     "forestapp",
     "Hpfxl",
@@ -8,6 +10,7 @@
     "lemmatize",
     "lemmatizer",
     "matplotlib",
+    "networkx",
     "nltk",
     "punkt",
     "rescode",
