@@ -12,7 +12,7 @@ okt = Okt()
 
 
 def draw(query: str) -> None:
-    df = pd.read_csv(f"csvs/naver/cafe_{query}.csv")
+    df = pd.read_csv(f"csvs/naver/blog_{query}.csv")
     df["result"] = np.nan
 
     for index, description in enumerate(df["description"]):
@@ -29,11 +29,11 @@ def draw(query: str) -> None:
             df.iloc[index, -1] = temp
 
     df["result"].to_csv(
-        f"csvs/naver/cafe_{query}_result.csv", index=False, header=False
+        f"csvs/naver/blog_{query}_result.csv", index=False, header=False
     )
 
 
-query_list = ["수면측정"]
+query_list = ["수면클리닉", "수면다원검사"]
 
 for i in range(len(query_list)):
     query = query_list[i]
